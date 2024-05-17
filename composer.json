@@ -1,0 +1,22 @@
+{
+    "name": "brivencn/doris",
+    "description": "PDO for doris crud",
+    "type": "library",
+    "require": {
+        "php": "7.0",
+      "ext-pdo": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Brivencn\\Doris\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "brivencn",
+            "email": "976104170@qq.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
